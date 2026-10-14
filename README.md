@@ -2,8 +2,6 @@
 
 **M.S. Student · Applied Statistics · Xi'an Jiaotong University**
 
-**[访问个人主页 · Academic Homepage →](https://mercyai.github.io/MERCYAI/)**
-
 [GitHub](https://github.com/MERCYAI) · [Biography](#biography) · [Research](#research-interests) · [Education](#education)
 
 ## Biography
