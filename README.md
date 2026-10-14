@@ -10,7 +10,7 @@
 
 I am a master's student in **Applied Statistics** at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/). Previously, I received my bachelor's degree in Mathematics and Applied Mathematics from [Shandong University](https://www.sdu.edu.cn/) in June 2026.
 
-My research interests include **vision–language–action models**, **predictive world representations**, and **robot learning**. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.
+My research interests include **WAM** · **VLA** · **AI Agent**. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.
 
 I enjoy tracing ideas from papers into code, understanding their training dynamics, and testing what holds up in interaction. When comparing methods, I look closely at the training data, checkpoints, task suites, and evaluation protocols behind the reported results.
 
