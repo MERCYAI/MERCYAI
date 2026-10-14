@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="MERCYAI — Master's student in Applied Statistics at Xi'an Jiaotong University, exploring embodied AI, VLA models, and world representations." />
+  <title>MERCYAI | Academic Homepage</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#biography">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Profile">
+      <div class="profile-header">
+        <div class="profile-avatar"><img src="./assets/avatar.jpg" alt="MERCYAI's GitHub profile photo" width="460" height="460" /></div>
+        <div class="profile-identity">
+          <h2 class="profile-name">MERCY<span>AI</span></h2>
+          <p class="profile-title">M.S. Student</p>
+          <p class="profile-field">Applied Statistics</p>
+          <p class="profile-university"><a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a></p>
+        </div>
+      </div>
+      <p class="profile-motto">From paper to code.<br />From prediction to action.</p>
+      <div class="profile-links">
+        <a href="https://github.com/MERCYAI" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18" /></svg>GitHub</a>
+        <a href="#education"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5Zm4 3v6c4 3 8 3 12 0v-6M22 9v7" /></svg>Education</a>
+      </div>
+      <div class="profile-research">Vision–Language–Action<br />World Models · Robot Learning</div>
+    </aside>
+    <main class="main-content" id="main-content">
+      <nav class="top-nav" aria-label="Section navigation">
+        <a href="#biography" aria-current="location">About</a><a href="#research">Research</a><a href="#education">Education</a><a href="#approach">Approach</a>
+      </nav>
+      <div class="welcome"><h1><span>Hi,</span> welcome to my homepage.</h1></div>
+      <section class="section" id="biography" aria-labelledby="biography-title">
+        <h2 id="biography-title">Biography</h2>
+        <p>I am a master's student in <strong>Applied Statistics</strong> at <a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a>. Previously, I received my bachelor's degree in Mathematics and Applied Mathematics from <a href="https://www.sdu.edu.cn/" target="_blank" rel="noopener">Shandong University</a> in June 2026.</p>
+        <p>My research interests include <strong>vision–language–action models</strong>, <strong>predictive world representations</strong>, and <strong>robot learning</strong>. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.</p>
+        <p>I enjoy tracing ideas from papers into code, understanding their training dynamics, and testing what holds up in interaction. When comparing methods, I look closely at the training data, checkpoints, task suites, and evaluation protocols behind the reported results.</p>
+      </section>
+      <section class="section" id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research Interests</h2>
+        <ul class="research-list">
+          <li><strong>Vision–Language–Action &amp; action generation.</strong> Policy fine-tuning, action transformers, and Flow Matching for generating useful action sequences from multimodal inputs.</li>
+          <li><strong>World models &amp; JEPA.</strong> Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.</li>
+          <li><strong>Evaluation &amp; robustness.</strong> Closed-loop task performance on LIBERO, its robustness benchmarks, and RoboTwin, with attention to each benchmark's protocol.</li>
+        </ul>
+      </section>
+      <section class="section" id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            <a class="school-logo-link" href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener" aria-label="Xi'an Jiaotong University"><img class="school-logo" src="./assets/xian-jiaotong-university.jpg" alt="西安交通大学校徽" width="60" height="60" /></a>
+            <div class="education-content">
+              <div class="education-top"><h3>Xi'an Jiaotong University <span lang="zh-CN">西安交通大学</span></h3><time>2026.09 – Present</time></div>
+              <div class="education-role">M.S. Student <span>Applied Statistics</span></div>
+              <p class="education-description" lang="zh-CN">应用统计硕士在读 · 预计 2029 年 6 月毕业</p>
+              <p class="education-note">Expected graduation: June 2029.</p>
+            </div>
+          </li>
+          <li class="education-item">
+            <a class="school-logo-link" href="https://www.sdu.edu.cn/" target="_blank" rel="noopener" aria-label="Shandong University"><img class="school-logo" src="./assets/shandong-university.svg" alt="山东大学校徽" width="60" height="60" /></a>
+            <div class="education-content">
+              <div class="education-top"><h3>Shandong University <span lang="zh-CN">山东大学</span></h3><time>2022.09 – 2026.06</time></div>
+              <div class="education-role">Bachelor's Degree <span>Mathematics and Applied Mathematics</span></div>
+              <p class="education-description" lang="zh-CN">数学与应用数学学士</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="approach" aria-labelledby="approach-title">
+        <h2 id="approach-title">Research Approach</h2>
+        <ul class="approach-list">
+          <li><strong>Read the implementation.</strong> Follow the tensor shapes, data flow, objectives, and configuration behind a method.</li>
+          <li><strong>Make comparisons explicit.</strong> Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.</li>
+          <li><strong>Connect diagnostics to behavior.</strong> Investigate a run through its training logs, then evaluate the policy through closed-loop task performance.</li>
+        </ul>
+      </section>
+      <details class="chinese-introduction" lang="zh-CN">
+        <summary>中文介绍</summary>
+        <p>我目前在西安交通大学攻读应用统计硕士，预计于 2029 年 6 月毕业。本科就读于山东大学数学与应用数学专业，于 2026 年 6 月获得学士学位。</p>
+        <p>我关注具身智能与机器人学习，主要探索视觉–语言–动作模型（VLA）、世界模型与未来潜在表征学习，以及机器人策略的闭环评测与鲁棒性。</p>
+        <p>我喜欢把论文中的方法落实到代码与实验中：梳理模型结构、数据流和训练目标，分析训练过程，再通过任务表现检验效果。比较不同方法时，我尤其关注训练数据、具体检查点、任务范围与评测协议是否一致。</p>
+      </details>
+      <footer>© 2026 MERCYAI <span>·</span> Last updated: October 2026</footer>
+    </main>
+  </div>
+  <button class="back-to-top" type="button" aria-label="Back to top" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 7-7 7 7M12 5v15" /></svg></button>
+</body>
+</html>

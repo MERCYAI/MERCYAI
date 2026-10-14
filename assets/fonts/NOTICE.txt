@@ -1,0 +1,19 @@
+crimson-text-600.ttf
+Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
+https://scripts.sil.org/OFL
+
+permanent-marker-400.ttf
+Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
+http://www.apache.org/licenses/LICENSE-2.0
+
+source-sans-pro-400.ttf
+© 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+http://scripts.sil.org/OFL
+
+source-sans-pro-600.ttf
+© 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+http://scripts.sil.org/OFL
+
+source-sans-pro-700.ttf
+© 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+http://scripts.sil.org/OFL

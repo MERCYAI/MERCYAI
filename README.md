@@ -1,74 +1,59 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="MERCYAI — Embodied AI and Robot Learning" width="100%" />
-</p>
+# MERCYAI
 
-<p align="center">
-  <b>Vision–Language–Action · World Models · Robot Learning</b>
-</p>
+**M.S. Student · Applied Statistics · Xi'an Jiaotong University**
 
-<p align="center">
-  <a href="https://github.com/MERCYAI?tab=repositories">Repositories</a> ·
-  <a href="#education">Education</a>
-</p>
+[GitHub](https://github.com/MERCYAI) · [Biography](#biography) · [Research](#research-interests) · [Education](#education)
 
-## About me
+## Biography
 
-Hi, I'm **MERCYAI**. I work on embodied AI, exploring how robots connect visual observations, language instructions, and action.
+I am a master's student in **Applied Statistics** at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/). Previously, I received my bachelor's degree in Mathematics and Applied Mathematics from [Shandong University](https://www.sdu.edu.cn/) in June 2026.
 
-My interests span **vision–language–action models**, **predictive world representations**, and **reliable robot policy evaluation**. I enjoy tracing ideas from papers into code, understanding the training dynamics, and testing what holds up in closed-loop interaction.
+My research interests include **vision–language–action models**, **predictive world representations**, and **robot learning**. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.
+
+I enjoy tracing ideas from papers into code, understanding their training dynamics, and testing what holds up in interaction. When comparing methods, I look closely at the training data, checkpoints, task suites, and evaluation protocols behind the reported results.
+
+## Research Interests
+
+- **Vision–Language–Action & action generation.** Policy fine-tuning, action transformers, and Flow Matching for generating useful action sequences from multimodal inputs.
+- **World models & JEPA.** Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.
+- **Evaluation & robustness.** Closed-loop task performance on LIBERO, its robustness benchmarks, and RoboTwin, with attention to each benchmark's protocol.
 
 ## Education
 
 <table>
   <tr>
-    <td width="104" align="center" valign="middle">
-      <a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university.svg" alt="山东大学校徽" width="76" /></a>
-    </td>
+    <td width="86" align="center" valign="middle"><a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university.jpg" alt="西安交通大学校徽" width="60" /></a></td>
     <td valign="middle">
-      <b>山东大学 · Shandong University</b><br />
-      本科 · 数学与应用数学学士<br />
-      Bachelor's degree in Mathematics and Applied Mathematics<br />
-      <sub>2022.09 – 2026.06</sub>
+      <b>Xi'an Jiaotong University · 西安交通大学</b><br />
+      M.S. Student · Applied Statistics<br />
+      应用统计硕士在读<br />
+      <sub>2026.09 – 至今 / Present · 预计 2029.06 毕业 / Expected graduation: June 2029</sub>
     </td>
   </tr>
   <tr>
-    <td width="104" align="center" valign="middle">
-      <a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university.jpg" alt="西安交通大学校徽" width="76" /></a>
-    </td>
+    <td width="86" align="center" valign="middle"><a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university.svg" alt="山东大学校徽" width="60" /></a></td>
     <td valign="middle">
-      <b>西安交通大学 · Xi'an Jiaotong University</b><br />
-      研究生 · 应用统计硕士在读<br />
-      Master's student in Applied Statistics<br />
-      <sub>2026.09 – 至今 / Present<br />预计 2029.06 毕业 / Expected graduation: June 2029</sub>
+      <b>Shandong University · 山东大学</b><br />
+      Bachelor's Degree · Mathematics and Applied Mathematics<br />
+      数学与应用数学学士<br />
+      <sub>2022.09 – 2026.06</sub>
     </td>
   </tr>
 </table>
 
-## Current interests
-
-| Direction | Questions I explore |
-| :--- | :--- |
-| **VLA & action generation** | How can multimodal models produce useful action sequences? I explore policy fine-tuning, action transformers, and Flow Matching. |
-| **World models & JEPA** | How can future latent representations help robot learning? I study action-conditioned prediction and representation learning. |
-| **Evaluation & robustness** | How do policies behave across tasks and perturbations? I follow LIBERO, its robustness benchmarks, and RoboTwin, with attention to each evaluation protocol. |
-
-## How I work
+## Research Approach
 
 - **Read the implementation.** Follow the tensor shapes, data flow, objectives, and configuration behind a method.
 - **Make comparisons explicit.** Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.
-- **Connect diagnostics to behavior.** Use training logs to investigate a run, then evaluate the policy through closed-loop task performance.
+- **Connect diagnostics to behavior.** Investigate a run through its training logs, then evaluate the policy through closed-loop task performance.
 
 <details>
 <summary><b>中文介绍</b></summary>
+
+我目前在西安交通大学攻读应用统计硕士，预计于 2029 年 6 月毕业。本科就读于山东大学数学与应用数学专业，于 2026 年 6 月获得学士学位。
 
 我关注具身智能与机器人学习，主要探索视觉–语言–动作模型（VLA）、世界模型与未来潜在表征学习，以及机器人策略的闭环评测与鲁棒性。
 
 我喜欢把论文中的方法落实到代码与实验中：梳理模型结构、数据流和训练目标，分析训练过程，再通过任务表现检验效果。比较不同方法时，我尤其关注训练数据、具体检查点、任务范围与评测协议是否一致。
 
-近期关注的主题包括 JEPA、动作 Transformer、Flow Matching，以及 LIBERO 系列和 RoboTwin 上的策略评测。
-
 </details>
-
----
-
-<p align="center"><i>From paper to code. From prediction to action.</i></p>
