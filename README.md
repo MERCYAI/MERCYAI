@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/MERCYAI?tab=repositories">Repositories</a> ·
-  <a href="https://github.com/MERCYAI/FastWAM-22d">FastWAM experiments</a>
+  <a href="#education">Education</a>
 </p>
 
 ## About me
@@ -16,6 +16,33 @@
 Hi, I'm **MERCYAI**. I work on embodied AI, exploring how robots connect visual observations, language instructions, and action.
 
 My interests span **vision–language–action models**, **predictive world representations**, and **reliable robot policy evaluation**. I enjoy tracing ideas from papers into code, understanding the training dynamics, and testing what holds up in closed-loop interaction.
+
+## Education
+
+<table>
+  <tr>
+    <td width="104" align="center" valign="middle">
+      <a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university.svg" alt="山东大学校徽" width="76" /></a>
+    </td>
+    <td valign="middle">
+      <b>山东大学 · Shandong University</b><br />
+      本科 · 数学与应用数学学士<br />
+      Bachelor's degree in Mathematics and Applied Mathematics<br />
+      <sub>2022.09 – 2026.06</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="104" align="center" valign="middle">
+      <a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university.jpg" alt="西安交通大学校徽" width="76" /></a>
+    </td>
+    <td valign="middle">
+      <b>西安交通大学 · Xi'an Jiaotong University</b><br />
+      研究生 · 应用统计硕士在读<br />
+      Master's student in Applied Statistics<br />
+      <sub>2026.09 – 至今 / Present<br />预计 2029.06 毕业 / Expected graduation: June 2029</sub>
+    </td>
+  </tr>
+</table>
 
 ## Current interests
 
@@ -30,16 +57,6 @@ My interests span **vision–language–action models**, **predictive world repr
 - **Read the implementation.** Follow the tensor shapes, data flow, objectives, and configuration behind a method.
 - **Make comparisons explicit.** Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.
 - **Connect diagnostics to behavior.** Use training logs to investigate a run, then evaluate the policy through closed-loop task performance.
-
-## Public code
-
-### [FastWAM-22d](https://github.com/MERCYAI/FastWAM-22d)
-
-An experiment workspace based on the FastWAM codebase, with training and evaluation workflows for LIBERO and RoboTwin.
-
-## Working with
-
-`Python` · `PyTorch` · `Linux` · `Distributed training` · `TensorBoard` · `Git`
 
 <details>
 <summary><b>中文介绍</b></summary>
