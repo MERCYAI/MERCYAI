@@ -22,20 +22,18 @@ I enjoy tracing ideas from papers into code, understanding their training dynami
 
 <table>
   <tr>
-    <td width="86" align="center" valign="middle"><a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university.jpg" alt="西安交通大学校徽" width="60" /></a></td>
+    <td width="86" align="center" valign="middle"><a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university.jpg" alt="Xi'an Jiaotong University emblem" width="60" /></a></td>
     <td valign="middle">
-      <b>Xi'an Jiaotong University · 西安交通大学</b><br />
+      <b>Xi'an Jiaotong University</b><br />
       M.S. Student · Applied Statistics<br />
-      应用统计硕士在读<br />
-      <sub>2026.09 – 至今 / Present · 预计 2029.06 毕业 / Expected graduation: June 2029</sub>
+      <sub>2026.09 – Present · Expected graduation: June 2029</sub>
     </td>
   </tr>
   <tr>
-    <td width="86" align="center" valign="middle"><a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university.svg" alt="山东大学校徽" width="60" /></a></td>
+    <td width="86" align="center" valign="middle"><a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university.svg" alt="Shandong University emblem" width="60" /></a></td>
     <td valign="middle">
-      <b>Shandong University · 山东大学</b><br />
+      <b>Shandong University</b><br />
       Bachelor's Degree · Mathematics and Applied Mathematics<br />
-      数学与应用数学学士<br />
       <sub>2022.09 – 2026.06</sub>
     </td>
   </tr>
@@ -49,8 +47,6 @@ I enjoy tracing ideas from papers into code, understanding their training dynami
 
 <details>
 <summary><b>中文介绍</b></summary>
-
-我目前在西安交通大学攻读应用统计硕士，预计于 2029 年 6 月毕业。本科就读于山东大学数学与应用数学专业，于 2026 年 6 月获得学士学位。
 
 我关注具身智能与机器人学习，主要探索视觉–语言–动作模型（VLA）、世界模型与未来潜在表征学习，以及机器人策略的闭环评测与鲁棒性。
 
