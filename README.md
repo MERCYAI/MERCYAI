@@ -14,9 +14,9 @@ I enjoy tracing ideas from papers into code, understanding their training dynami
 
 ## Research Interests
 
-- **Vision–Language–Action & action generation.** Policy fine-tuning, action transformers, and Flow Matching for generating useful action sequences from multimodal inputs.
+- **World-Action-Model.** Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.
 - **World models & JEPA.** Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.
-- **Evaluation & robustness.** Closed-loop task performance on LIBERO, its robustness benchmarks, and RoboTwin, with attention to each benchmark's protocol.
+- **Evaluation & robustness.** Evaluating robot policies through closed-loop interaction, with a focus on generalization, robustness to perturbations, and reliable task execution.
 
 ## Education
 
