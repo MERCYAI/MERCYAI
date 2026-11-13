@@ -3,98 +3,100 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#A6DCC6" />
   <meta name="description" content="MERCYAI — Master's student in Applied Statistics at Xi'an Jiaotong University, with interests in WAM · VLA · AI Agent." />
   <title>MERCYAI | Academic Homepage</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
   <link rel="stylesheet" href="./styles.css" />
   <script src="./app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#biography">Skip to content</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="icon-person" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol>
+      <symbol id="icon-research" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="11" ry="4.5" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="11" ry="4.5" transform="rotate(-60 12 12)"/></symbol>
+      <symbol id="icon-school" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Zm4 3v6c4 3 8 3 12 0v-6M22 9v7"/></symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24"><path d="M12 5v16M12 5C8 2 4 3 2 4v15c3-1 7-1 10 2 3-3 7-3 10-2V4c-2-1-6-2-10 1Z"/></symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+      <symbol id="icon-quote" viewBox="0 0 24 24"><path d="M4 4h6v9c0 5-3 7-6 7v-3c2 0 3-2 3-4H4V4Zm10 0h6v9c0 5-3 7-6 7v-3c2 0 3-2 3-4h-3V4Z"/></symbol>
+    </defs>
+  </svg>
   <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#biography" aria-label="MERCYAI home">MERCY<span>AI</span><span class="brand-star" aria-hidden="true">✦</span></a>
+      <button class="menu-toggle" type="button" aria-controls="section-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="top-nav" id="section-nav" aria-label="Section navigation">
+        <a href="#biography" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#icon-person"/></svg>About</a>
+        <a href="#research"><svg class="icon" aria-hidden="true"><use href="#icon-research"/></svg>Research</a>
+        <a href="#education"><svg class="icon" aria-hidden="true"><use href="#icon-school"/></svg>Education</a>
+        <a href="#approach"><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg>Approach</a>
+      </nav>
+    </div>
+  </header>
+
   <div class="layout">
     <aside class="sidebar" aria-label="Profile">
       <div class="profile-header">
-        <div class="profile-avatar"><img src="https://avatars.githubusercontent.com/u/166883384?s=460&amp;v=4" alt="MERCYAI's GitHub profile photo" width="460" height="460" /></div>
+        <div class="profile-avatar"><img src="./assets/avatar.jpg" alt="MERCYAI in a snowy mountain landscape" width="460" height="460" fetchpriority="high" /></div>
         <div class="profile-identity">
-          <h2 class="profile-name">MERCY<span>AI</span></h2>
+          <h2 class="profile-name">MERCYAI</h2>
           <p class="profile-title">M.S. Student</p>
           <p class="profile-field">Applied Statistics</p>
           <p class="profile-university"><a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a></p>
         </div>
       </div>
-      <p class="profile-motto">From paper to code.<br />From prediction to action.</p>
+      <div class="profile-research" aria-label="Research areas"><span>WAM</span><span>VLA</span><span>AI Agent</span></div>
+      <p class="profile-motto">From paper to code.<br/>From prediction to action.</p>
       <div class="profile-links">
-        <a href="https://github.com/MERCYAI" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18" /></svg>GitHub</a>
-        <a href="#education"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5Zm4 3v6c4 3 8 3 12 0v-6M22 9v7" /></svg>Education</a>
+        <a class="profile-primary" href="https://github.com/MERCYAI" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#icon-code"/></svg>Explore my GitHub<svg class="icon link-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        <a class="profile-secondary" href="#education"><svg class="icon" aria-hidden="true"><use href="#icon-school"/></svg>Academic background</a>
       </div>
-      <div class="profile-research">WAM · VLA · AI Agent</div>
-      <div class="album-marks profile-album-marks" aria-hidden="true">
-        <svg class="album-symbol album-plus" viewBox="0 0 40 40" focusable="false"><path d="m7 20 26-1M20 7l-1 26" /></svg>
-        <svg class="album-symbol album-multiply" viewBox="0 0 40 40" focusable="false"><path d="m10 9 21 22M30 9 9 31" /></svg>
-        <svg class="album-symbol album-divide" viewBox="0 0 40 40" focusable="false"><path d="m7 20 26-1" /><circle cx="20" cy="7" r="3.5" /><circle cx="19" cy="33" r="3.5" /></svg>
-        <svg class="album-symbol album-equals" viewBox="0 0 40 40" focusable="false"><path d="m7 13 26 1M7 27l26-1" /></svg>
-        <svg class="album-symbol album-subtract" viewBox="0 0 40 40" focusable="false"><path d="m7 20 26-1" /></svg>
-        <svg class="album-symbol album-play" viewBox="0 0 40 40" focusable="false"><path d="M11 7 34 20 11 33Z" /></svg>
-      </div>
+      <p class="profile-updated">Last updated: November 2026</p>
     </aside>
-    <main class="main-content" id="main-content">
-      <nav class="top-nav" aria-label="Section navigation">
-        <a href="#biography" aria-current="location">About</a><a href="#research">Research</a><a href="#education">Education</a><a href="#approach">Approach</a>
-      </nav>
-      <div class="welcome">
-        <h1><span>Kick Off,</span> <span class="slogan-red">Tune In,</span> <span>Stay Curious.</span></h1>
-      </div>
-      <section class="section" id="biography" aria-labelledby="biography-title">
-        <h2 id="biography-title">Biography</h2>
+
+    <main class="main-content" id="main-content" tabindex="-1">
+      <section class="section about-section" id="biography" aria-labelledby="biography-title">
+        <p class="eyebrow"><span aria-hidden="true"></span>Personal academic homepage</p>
+        <h1 id="biography-title">Hi, I'm <span>MERCYAI.</span></h1>
         <p>I am a master's student in <strong>Applied Statistics</strong> at <a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a>. Previously, I received my bachelor's degree in Mathematics and Applied Mathematics from <a href="https://www.sdu.edu.cn/" target="_blank" rel="noopener">Shandong University</a> in June 2026.</p>
         <p>My research interests include <strong>WAM</strong>, <strong>VLA</strong>, and <strong>AI Agent</strong>. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.</p>
         <p>I enjoy tracing ideas from papers into code, understanding their training dynamics, and testing what holds up in interaction. When comparing methods, I look closely at the training data, checkpoints, task suites, and evaluation protocols behind the reported results.</p>
+        <div class="quote-callout"><svg class="icon" aria-hidden="true"><use href="#icon-quote"/></svg><p>Kick Off, Tune In, <span>Stay Curious.</span></p></div>
       </section>
+
       <section class="section" id="research" aria-labelledby="research-title">
-        <h2 id="research-title">Research Interests</h2>
+        <div class="section-heading"><h2 id="research-title">Research Interests</h2><span class="section-rule" aria-hidden="true"></span><svg class="icon" aria-hidden="true"><use href="#icon-research"/></svg></div>
         <ul class="research-list">
-          <li><strong>World-Action-Model.</strong> Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.</li>
-          <li><strong>World models &amp; JEPA.</strong> Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.</li>
-          <li><strong>Evaluation &amp; robustness.</strong> Evaluating robot policies through closed-loop interaction, with a focus on generalization, robustness to perturbations, and reliable task execution.</li>
+          <li><span class="research-tag" aria-hidden="true">WAM</span><div><h3>World-Action-Model</h3><p>Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.</p></div></li>
+          <li><span class="research-tag" aria-hidden="true">JEPA</span><div><h3>World models &amp; JEPA</h3><p>Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.</p></div></li>
+          <li><span class="research-tag" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></svg></span><div><h3>Evaluation &amp; robustness</h3><p>Evaluating robot policies through closed-loop interaction, with a focus on generalization, robustness to perturbations, and reliable task execution.</p></div></li>
         </ul>
       </section>
+
       <section class="section" id="education" aria-labelledby="education-title">
-        <h2 id="education-title">Education</h2>
+        <div class="section-heading"><h2 id="education-title">Education</h2><span class="section-rule" aria-hidden="true"></span><svg class="icon" aria-hidden="true"><use href="#icon-school"/></svg></div>
         <ul class="education-list">
-          <li class="education-item">
-            <a class="school-logo-link" href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener" aria-label="Xi'an Jiaotong University"><img class="school-logo" src="./assets/xian-jiaotong-university.jpg" alt="Xi'an Jiaotong University emblem" width="60" height="60" /></a>
-            <div class="education-content">
-              <div class="education-top"><h3>Xi'an Jiaotong University</h3><time>2026.09 – Present</time></div>
-              <div class="education-role">M.S. Student <span>Applied Statistics</span></div>
-              <p class="education-note">Expected graduation: June 2029.</p>
-            </div>
-          </li>
-          <li class="education-item">
-            <a class="school-logo-link" href="https://www.sdu.edu.cn/" target="_blank" rel="noopener" aria-label="Shandong University"><img class="school-logo" src="./assets/shandong-university.svg" alt="Shandong University emblem" width="60" height="60" /></a>
-            <div class="education-content">
-              <div class="education-top"><h3>Shandong University</h3><time>2022.09 – 2026.06</time></div>
-              <div class="education-role">Bachelor's Degree <span>Mathematics and Applied Mathematics</span></div>
-            </div>
-          </li>
+          <li class="education-item"><a class="school-logo-link" href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener" aria-label="Xi'an Jiaotong University"><img class="school-logo" src="./assets/xian-jiaotong-university.jpg" alt="Xi'an Jiaotong University emblem" width="56" height="56" loading="lazy"/></a><div class="education-content"><div class="education-top"><h3>Xi'an Jiaotong University</h3><span class="current-badge">Current</span></div><div class="education-meta"><p class="education-role">M.S. Student <span>· Applied Statistics</span></p><span class="education-period"><time datetime="2026-09">2026.09</time> – Present</span></div><p class="education-note">Expected graduation: June 2029.</p></div></li>
+          <li class="education-item"><a class="school-logo-link" href="https://www.sdu.edu.cn/" target="_blank" rel="noopener" aria-label="Shandong University"><img class="school-logo" src="./assets/shandong-university.svg" alt="Shandong University emblem" width="56" height="56" loading="lazy"/></a><div class="education-content"><div class="education-top"><h3>Shandong University</h3></div><div class="education-meta"><p class="education-role">Bachelor's Degree <span>· Mathematics and Applied Mathematics</span></p><span class="education-period"><time datetime="2022-09">2022.09</time> – <time datetime="2026-06">2026.06</time></span></div></div></li>
         </ul>
       </section>
+
       <section class="section" id="approach" aria-labelledby="approach-title">
-        <h2 id="approach-title">Research Approach</h2>
-        <ul class="approach-list">
-          <li><strong>Read the implementation.</strong> Follow the tensor shapes, data flow, objectives, and configuration behind a method.</li>
-          <li><strong>Make comparisons explicit.</strong> Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.</li>
-          <li><strong>Connect diagnostics to behavior.</strong> Investigate a run through its training logs, then evaluate the policy through closed-loop task performance.</li>
-        </ul>
+        <div class="section-heading"><h2 id="approach-title">Research Approach</h2><span class="section-rule" aria-hidden="true"></span><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg></div>
+        <ol class="approach-list">
+          <li><h3>Read the implementation.</h3><p>Follow the tensor shapes, data flow, objectives, and configuration behind a method.</p></li>
+          <li><h3>Make comparisons explicit.</h3><p>Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.</p></li>
+          <li><h3>Connect diagnostics to behavior.</h3><p>Investigate a run through its training logs, then evaluate the policy through closed-loop task performance.</p></li>
+        </ol>
       </section>
-      <details class="chinese-introduction" lang="zh-CN">
-        <summary>中文介绍</summary>
-        <p>我目前在<a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">西安交通大学</a>攻读<strong>应用统计</strong>硕士学位。此前，我于 2026 年 6 月获得<a href="https://www.sdu.edu.cn/" target="_blank" rel="noopener">山东大学</a>数学与应用数学学士学位。</p>
-        <p>我的研究兴趣包括 <strong>WAM</strong>、<strong>VLA</strong> 和 <strong>AI Agent</strong>。我探索机器人如何将视觉观测、语言指令与动作联系起来，尤其关注闭环评测与鲁棒性。</p>
-        <p>我喜欢把论文中的想法落实到代码中，理解其训练动态，并在实际交互中检验其有效性。比较不同方法时，我会仔细考察所报告结果背后的训练数据、检查点、任务集和评测协议。</p>
-      </details>
-      <footer>© 2026 MERCYAI <span>·</span> Last updated: October 2026</footer>
+
+      <details class="chinese-introduction" lang="zh-CN"><summary><span>中文介绍 <span class="summary-note">/ Chinese introduction</span></span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="chinese-content"><p>我目前在<a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">西安交通大学</a>攻读<strong>应用统计</strong>硕士学位。此前，我于 2026 年 6 月获得<a href="https://www.sdu.edu.cn/" target="_blank" rel="noopener">山东大学</a>数学与应用数学学士学位。</p><p>我的研究兴趣包括 <strong>WAM</strong>、<strong>VLA</strong> 和 <strong>AI Agent</strong>。我探索机器人如何将视觉观测、语言指令与动作联系起来，尤其关注闭环评测与鲁棒性。</p><p>我喜欢把论文中的想法落实到代码中，理解其训练动态，并在实际交互中检验其有效性。比较不同方法时，我会仔细考察所报告结果背后的训练数据、检查点、任务集和评测协议。</p></div></details>
+      <footer class="site-footer"><span>© 2026 MERCYAI</span><a href="https://github.com/MERCYAI/MERCYAI" target="_blank" rel="noopener">View source<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></footer>
     </main>
   </div>
-  <button class="back-to-top" type="button" aria-label="Back to top" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 7-7 7 7M12 5v15" /></svg></button>
+  <button class="back-to-top" type="button" aria-label="Back to top" hidden><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 7-7 7 7M12 5v15"/></svg></button>
 </body>
 </html>
