@@ -1,4 +1,4 @@
-# MERCYAI
+# Baqiao Deng
 
 **M.S. Student · Applied Statistics · Xi'an Jiaotong University**
 
