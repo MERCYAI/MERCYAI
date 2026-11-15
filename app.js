@@ -37,7 +37,6 @@
   window.addEventListener('resize', requestUpdate);
   window.addEventListener('load', requestUpdate);
   window.addEventListener('hashchange', requestUpdate);
-  document.querySelector('.chinese-introduction').addEventListener('toggle', requestUpdate);
   if (document.fonts) document.fonts.ready.then(requestUpdate);
   backToTop.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: reducedMotion.matches ? 'auto' : 'smooth' }); document.querySelector('.brand').focus({ preventScroll: true }); requestUpdate(); });
   update();

@@ -10,13 +10,10 @@ I am a master's student in **Applied Statistics** at [Xi'an Jiaotong University]
 
 My research interests include **WAM**, **VLA**, and **AI Agent**. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.
 
-I enjoy tracing ideas from papers into code, understanding their training dynamics, and testing what holds up in interaction. When comparing methods, I look closely at the training data, checkpoints, task suites, and evaluation protocols behind the reported results.
-
 ## Research Interests
 
 - **World-Action-Model.** Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.
 - **World models & JEPA.** Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.
-- **Evaluation & robustness.** Evaluating robot policies through closed-loop interaction, with a focus on generalization, robustness to perturbations, and reliable task execution.
 
 ## Education
 
@@ -38,18 +35,3 @@ I enjoy tracing ideas from papers into code, understanding their training dynami
     </td>
   </tr>
 </table>
-
-## Research Approach
-
-- **Read the implementation.** Follow the tensor shapes, data flow, objectives, and configuration behind a method.
-- **Make comparisons explicit.** Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.
-- **Connect diagnostics to behavior.** Investigate a run through its training logs, then evaluate the policy through closed-loop task performance.
-
-<details>
-<summary><b>中文介绍</b></summary>
-
-我关注具身智能与机器人学习，主要探索视觉–语言–动作模型（VLA）、世界模型与未来潜在表征学习，以及机器人策略的闭环评测与鲁棒性。
-
-我喜欢把论文中的方法落实到代码与实验中：梳理模型结构、数据流和训练目标，分析训练过程，再通过任务表现检验效果。比较不同方法时，我尤其关注训练数据、具体检查点、任务范围与评测协议是否一致。
-
-</details>

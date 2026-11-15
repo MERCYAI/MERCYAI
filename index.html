@@ -17,10 +17,8 @@
       <symbol id="icon-person" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol>
       <symbol id="icon-research" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="11" ry="4.5" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="11" ry="4.5" transform="rotate(-60 12 12)"/></symbol>
       <symbol id="icon-school" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Zm4 3v6c4 3 8 3 12 0v-6M22 9v7"/></symbol>
-      <symbol id="icon-book" viewBox="0 0 24 24"><path d="M12 5v16M12 5C8 2 4 3 2 4v15c3-1 7-1 10 2 3-3 7-3 10-2V4c-2-1-6-2-10 1Z"/></symbol>
       <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></symbol>
       <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
-      <symbol id="icon-quote" viewBox="0 0 24 24"><path d="M4 4h6v9c0 5-3 7-6 7v-3c2 0 3-2 3-4H4V4Zm10 0h6v9c0 5-3 7-6 7v-3c2 0 3-2 3-4h-3V4Z"/></symbol>
     </defs>
   </svg>
   <div class="reading-progress" aria-hidden="true"></div>
@@ -32,7 +30,6 @@
         <a href="#biography" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#icon-person"/></svg>About</a>
         <a href="#research"><svg class="icon" aria-hidden="true"><use href="#icon-research"/></svg>Research</a>
         <a href="#education"><svg class="icon" aria-hidden="true"><use href="#icon-school"/></svg>Education</a>
-        <a href="#approach"><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg>Approach</a>
       </nav>
     </div>
   </header>
@@ -63,8 +60,6 @@
         <h1 id="biography-title">Hi, I'm <span>Baqiao Deng.</span></h1>
         <p>I am a master's student in <strong>Applied Statistics</strong> at <a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">Xi'an Jiaotong University</a>. Previously, I received my bachelor's degree in Mathematics and Applied Mathematics from <a href="https://www.sdu.edu.cn/" target="_blank" rel="noopener">Shandong University</a> in June 2026.</p>
         <p>My research interests include <strong>WAM</strong>, <strong>VLA</strong>, and <strong>AI Agent</strong>. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.</p>
-        <p>I enjoy tracing ideas from papers into code, understanding their training dynamics, and testing what holds up in interaction. When comparing methods, I look closely at the training data, checkpoints, task suites, and evaluation protocols behind the reported results.</p>
-        <div class="quote-callout"><svg class="icon" aria-hidden="true"><use href="#icon-quote"/></svg><p>Kick Off, Tune In, <span>Stay Curious.</span></p></div>
       </section>
 
       <section class="section" id="research" aria-labelledby="research-title">
@@ -72,7 +67,6 @@
         <ul class="research-list">
           <li><span class="research-tag" aria-hidden="true">WAM</span><div><h3>World-Action-Model</h3><p>Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.</p></div></li>
           <li><span class="research-tag" aria-hidden="true">JEPA</span><div><h3>World models &amp; JEPA</h3><p>Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.</p></div></li>
-          <li><span class="research-tag" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></svg></span><div><h3>Evaluation &amp; robustness</h3><p>Evaluating robot policies through closed-loop interaction, with a focus on generalization, robustness to perturbations, and reliable task execution.</p></div></li>
         </ul>
       </section>
 
@@ -84,16 +78,6 @@
         </ul>
       </section>
 
-      <section class="section" id="approach" aria-labelledby="approach-title">
-        <div class="section-heading"><h2 id="approach-title">Research Approach</h2><span class="section-rule" aria-hidden="true"></span><svg class="icon" aria-hidden="true"><use href="#icon-book"/></svg></div>
-        <ol class="approach-list">
-          <li><h3>Read the implementation.</h3><p>Follow the tensor shapes, data flow, objectives, and configuration behind a method.</p></li>
-          <li><h3>Make comparisons explicit.</h3><p>Check training data, checkpoints, task suites, trial counts, and inference settings before comparing scores.</p></li>
-          <li><h3>Connect diagnostics to behavior.</h3><p>Investigate a run through its training logs, then evaluate the policy through closed-loop task performance.</p></li>
-        </ol>
-      </section>
-
-      <details class="chinese-introduction" lang="zh-CN"><summary><span>中文介绍 <span class="summary-note">/ Chinese introduction</span></span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="chinese-content"><p>我目前在<a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener">西安交通大学</a>攻读<strong>应用统计</strong>硕士学位。此前，我于 2026 年 6 月获得<a href="https://www.sdu.edu.cn/" target="_blank" rel="noopener">山东大学</a>数学与应用数学学士学位。</p><p>我的研究兴趣包括 <strong>WAM</strong>、<strong>VLA</strong> 和 <strong>AI Agent</strong>。我探索机器人如何将视觉观测、语言指令与动作联系起来，尤其关注闭环评测与鲁棒性。</p><p>我喜欢把论文中的想法落实到代码中，理解其训练动态，并在实际交互中检验其有效性。比较不同方法时，我会仔细考察所报告结果背后的训练数据、检查点、任务集和评测协议。</p></div></details>
       <footer class="site-footer"><span>© 2026 Baqiao Deng</span><a href="https://github.com/MERCYAI/MERCYAI" target="_blank" rel="noopener">View source<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></footer>
     </main>
   </div>
