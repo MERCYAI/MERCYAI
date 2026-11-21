@@ -95,11 +95,10 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .experience-content p{margin:4px 0 0;color:var(--theme-text);font-size:1rem}
 .experience-meta{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 16px}
 .education-list{display:grid;gap:0;list-style:none;margin:0;padding:0}
-.education-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:20px;align-items:center;padding:20px 0;border-bottom:1px dashed var(--theme-line)}
+.education-item{display:grid;grid-template-columns:80px minmax(0,1fr);gap:20px;align-items:start;padding:20px 0;border-bottom:1px dashed var(--theme-line)}
 .education-item:first-child{padding-top:0}.education-item:last-child{border-bottom:0;padding-bottom:0}
-.school-logo-link{display:block}.school-logo{width:56px;height:56px;object-fit:contain}.education-content{min-width:0}
-/* Compensate for the SDU image's inset whitespace so both emblems look equal. */
-.school-logo--sdu{transform:scale(1.12);transform-origin:center}
+.school-logo-link{display:grid;place-items:center;width:80px;height:80px;margin-top:2px;padding:4px;border:1px solid var(--theme-line);border-radius:6px;background:#fff}
+.school-logo{width:100%;height:100%;object-fit:contain}.education-content{min-width:0}
 .education-top{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:5px 10px}
 .current-badge{border-radius:4px;padding:1px 8px;color:var(--theme-text);background:var(--theme-surface);font-size:.8125rem;font-weight:500}
 .education-meta{display:flex;align-items:baseline;flex-wrap:wrap;justify-content:space-between;gap:3px 12px;margin-top:4px}
@@ -159,8 +158,8 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .profile-links{display:grid;max-width:260px;margin:16px auto 0}.profile-updated{margin-top:18px}
   .section-heading{gap:12px}.section-heading h2{font-size:1.25rem}
   .news-list{padding-inline:15px}.news-list li{grid-template-columns:1fr;gap:5px}
-  .education-item{grid-template-columns:44px minmax(0,1fr);gap:14px;align-items:start}.school-logo{width:44px;height:44px}
-  .education-role span{display:block}.site-footer{padding-right:40px}
+  .education-item{grid-template-columns:64px minmax(0,1fr);gap:16px}.school-logo-link{width:64px;height:64px;padding:3px}
+  .education-role span{display:block}.education-meta{display:block}.education-meta .education-period{display:block;margin-top:4px}.site-footer{padding-right:40px}
   .experience-item{grid-template-columns:minmax(0,1fr);gap:16px;padding:20px}
   .experience-meta{display:grid;gap:4px}
 }

@@ -8,7 +8,7 @@
 
 I am a master's student in **Applied Statistics** at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/). Previously, I received my bachelor's degree in Mathematics and Applied Mathematics from [Shandong University](https://www.sdu.edu.cn/) in June 2026.
 
-My research interests include **WAM**, **VLA**, and **AI Agent**. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.
+My research interests include **WAM**, **VLA**, and **AI agents**. In particular, I am interested in how world models can help robots anticipate the consequences of their actions and make better decisions.
 
 ## News
 
@@ -38,7 +38,7 @@ Embodied AI Research Intern
 
 <table>
   <tr>
-    <td width="86" align="center" valign="middle"><a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university.jpg" alt="Xi'an Jiaotong University emblem" width="60" /></a></td>
+    <td width="96" align="center" valign="top"><a href="https://www.xjtu.edu.cn/"><img src="./assets/xian-jiaotong-university-hd.png" alt="Xi'an Jiaotong University emblem" width="72" /></a></td>
     <td valign="middle">
       <b>Xi'an Jiaotong University</b><br />
       M.S. Student · Applied Statistics<br />
@@ -46,7 +46,7 @@ Embodied AI Research Intern
     </td>
   </tr>
   <tr>
-    <td width="86" align="center" valign="middle"><a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university.svg" alt="Shandong University emblem" width="60" /></a></td>
+    <td width="96" align="center" valign="top"><a href="https://www.sdu.edu.cn/"><img src="./assets/shandong-university-hd.svg" alt="Shandong University emblem" width="72" /></a></td>
     <td valign="middle">
       <b>Shandong University</b><br />
       Bachelor's Degree · Mathematics and Applied Mathematics<br />
