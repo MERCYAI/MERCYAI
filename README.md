@@ -37,6 +37,8 @@ A latent world-action model that rethinks predicted futures to refine robot acti
 
 Embodied AI Research Intern
 
+2026.09 – Present
+
 ## Education
 
 <table>

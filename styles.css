@@ -94,6 +94,7 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .organization-logo{width:56px;height:56px;object-fit:contain;border-radius:4px}
 .experience-content{min-width:0}.experience-content h3 a{color:var(--ink)}.experience-content h3 a:hover{color:var(--theme-text);text-decoration:underline}
 .experience-content p{margin:4px 0 0;color:var(--theme-text);font-size:1rem}
+.experience-meta{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 16px}
 .education-list{display:grid;gap:0;list-style:none;margin:0;padding:0}
 .education-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:20px;align-items:center;padding:20px 0;border-bottom:1px dashed var(--theme-line)}
 .education-item:first-child{padding-top:0}.education-item:last-child{border-bottom:0;padding-bottom:0}
