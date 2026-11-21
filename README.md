@@ -28,11 +28,9 @@ A latent world-action model that rethinks predicted futures to refine robot acti
 
 ## Internship
 
-**[Fangju Research Institute](https://www.astrogrid.world/about)**
+**[Fangju Research Institute](https://www.astrogrid.world/about)** | Embodied AI Research Intern
 
-Embodied AI Research Intern
-
-2026.09 – Present
+2026.09 – Present | Xi'an · On-site
 
 ## Education
 

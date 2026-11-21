@@ -92,8 +92,10 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .organization-logo-link{display:flex;align-items:center;justify-content:center;width:156px;min-height:76px;padding:10px;background:#fff;border:1px solid var(--theme-line);border-radius:6px}
 .organization-logo{width:134px;height:auto;object-fit:contain}
 .experience-content{min-width:0}.experience-content h3 a{color:var(--ink)}.experience-content h3 a:hover{color:var(--theme-text);text-decoration:underline}
-.experience-content p{margin:4px 0 0;color:var(--theme-text);font-size:1rem}
-.experience-meta{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 16px}
+.experience-role{color:var(--theme-text);font-weight:400}
+.experience-separator{margin-inline:3px;color:var(--muted);font-weight:400}
+.experience-meta{margin:6px 0 0;color:var(--muted);font-size:.875rem;line-height:1.7}
+.experience-period,.experience-location{white-space:nowrap}
 .education-list{display:grid;gap:0;list-style:none;margin:0;padding:0}
 .education-item{display:grid;grid-template-columns:80px minmax(0,1fr);gap:20px;align-items:start;padding:20px 0;border-bottom:1px dashed var(--theme-line)}
 .education-item:first-child{padding-top:0}.education-item:last-child{border-bottom:0;padding-bottom:0}
@@ -161,7 +163,6 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .education-item{grid-template-columns:64px minmax(0,1fr);gap:16px}.school-logo-link{width:64px;height:64px;padding:3px}
   .education-role span{display:block}.education-meta{display:block}.education-meta .education-period{display:block;margin-top:4px}.site-footer{padding-right:40px}
   .experience-item{grid-template-columns:minmax(0,1fr);gap:16px;padding:20px}
-  .experience-meta{display:grid;gap:4px}
 }
 @media(max-width:360px){.header-inner{margin-inline:16px}.layout{padding-inline:16px}.section-heading h2{font-size:1.15rem}}
 @media(min-width:1001px) and (max-height:760px){.sidebar{position:static}}
