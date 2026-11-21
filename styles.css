@@ -43,8 +43,7 @@ strong{color:var(--theme-text);font-weight:700}img{display:block;max-width:100%;
 .profile-university{margin:4px 0 0;font-size:.875rem}.profile-university a:hover{text-decoration:underline}
 .profile-research{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin-top:20px}
 .profile-research span{padding:2px 10px;border-radius:4px;background:var(--theme-surface);color:var(--theme-text);font-size:.875rem;font-weight:600}
-.profile-motto{margin:20px 0;color:var(--muted);font-size:.875rem;line-height:1.7}
-.profile-links{display:grid;gap:9px;max-width:236px;margin:auto}
+.profile-links{display:grid;gap:9px;max-width:236px;margin:20px auto 0}
 .profile-links a{display:flex;justify-content:center;align-items:center;gap:9px;min-height:43px;border-radius:6px;font-size:.875rem;font-weight:600;transition:background 160ms ease}
 .profile-primary{background:var(--theme-color);color:var(--theme-hover)}.profile-primary:hover{background:#94CFB7}
 .profile-secondary{background:var(--theme-surface);color:var(--theme-text)}.profile-secondary:hover{background:#E1F1E9}
@@ -100,6 +99,8 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .education-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:20px;align-items:center;padding:20px 0;border-bottom:1px dashed var(--theme-line)}
 .education-item:first-child{padding-top:0}.education-item:last-child{border-bottom:0;padding-bottom:0}
 .school-logo-link{display:block}.school-logo{width:56px;height:56px;object-fit:contain}.education-content{min-width:0}
+/* Compensate for the SDU image's inset whitespace so both emblems look equal. */
+.school-logo--sdu{transform:scale(1.12);transform-origin:center}
 .education-top{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:5px 10px}
 .current-badge{border-radius:4px;padding:1px 8px;color:var(--theme-text);background:var(--theme-surface);font-size:.8125rem;font-weight:500}
 .education-meta{display:flex;align-items:baseline;flex-wrap:wrap;justify-content:space-between;gap:3px 12px;margin-top:4px}
@@ -121,10 +122,10 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .layout{display:block;max-width:780px;margin:36px auto 0;padding-inline:32px}
   .sidebar{position:static;display:grid;grid-template-columns:232px minmax(0,1fr);gap:0 30px;text-align:left;margin-bottom:38px;padding:0 0 30px;border-bottom:1px solid var(--line)}
   .profile-header{display:contents}
-  .profile-avatar{grid-column:1;grid-row:1/5;align-self:center;margin:0}
-  .profile-identity,.profile-research,.profile-motto,.profile-links{grid-column:2}
-  .profile-research{justify-content:flex-start;margin-top:14px}.profile-motto{margin:14px 0}
-  .profile-links{display:flex;flex-wrap:wrap;max-width:none;margin:0;gap:8px}.profile-links a{min-height:40px;padding:4px 12px}
+  .profile-avatar{grid-column:1;grid-row:1/4;align-self:center;margin:0}
+  .profile-identity,.profile-research,.profile-links{grid-column:2}
+  .profile-research{justify-content:flex-start;margin-top:14px}
+  .profile-links{display:flex;flex-wrap:wrap;max-width:none;margin:14px 0 0;gap:8px}.profile-links a{min-height:40px;padding:4px 12px}
   .profile-updated{grid-column:1/-1;text-align:center;margin-top:20px}
   .top-nav{gap:16px}
 }
@@ -154,8 +155,8 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 @media(max-width:540px){
   .sidebar{display:block;text-align:center;padding-bottom:28px}
   .profile-avatar{width:192px;margin:0 auto 20px}.profile-avatar img{width:176px;height:176px}
-  .profile-name{font-size:1.65rem}.profile-research{justify-content:center}.profile-motto{margin-block:16px}
-  .profile-links{display:grid;max-width:260px;margin:auto}.profile-updated{margin-top:18px}
+  .profile-name{font-size:1.65rem}.profile-research{justify-content:center}
+  .profile-links{display:grid;max-width:260px;margin:16px auto 0}.profile-updated{margin-top:18px}
   .section-heading{gap:12px}.section-heading h2{font-size:1.25rem}
   .news-list{padding-inline:15px}.news-list li{grid-template-columns:1fr;gap:5px}
   .research-list li{grid-template-columns:52px minmax(0,1fr);gap:14px}.research-tag{width:52px;font-size:.8125rem}
