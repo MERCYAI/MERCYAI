@@ -14,7 +14,7 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}
 a{color:var(--theme-text);text-decoration:none;text-underline-offset:4px;transition:color 160ms ease}
 a:hover{color:var(--theme-hover)}
 a:focus-visible,button:focus-visible{outline:2px solid var(--theme-text);outline-offset:5px;border-radius:3px}
-strong{color:var(--theme-text);font-weight:700}img{display:block;max-width:100%}svg{flex-shrink:0}
+strong{color:var(--theme-text);font-weight:700}img{display:block;max-width:100%;height:auto}svg{flex-shrink:0}
 .icon{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
 .icon-definitions{position:absolute;width:0;height:0;overflow:hidden}[hidden]{display:none!important}
 ::selection{background:var(--theme-color);color:var(--ink)}
@@ -68,8 +68,8 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .news-list li:last-child{border-bottom:0}
 .news-list time{padding-top:2px;color:var(--theme-text);font-size:.875rem;font-weight:650;font-variant-numeric:tabular-nums}
 .news-list p{margin:0;font-size:1rem;line-height:1.65}
-.publication{display:grid;grid-template-columns:224px minmax(0,1fr);gap:24px;padding:20px 0 23px;border-top:1px dashed var(--theme-line);border-bottom:1px dashed var(--theme-line);align-items:start}
-.publication-image{display:grid;align-items:center;aspect-ratio:3/2;padding:8px;border:1px solid var(--line);border-radius:7px;background:#fff;overflow:hidden}
+.publication{display:grid;grid-template-columns:minmax(220px,36%) minmax(0,1fr);gap:24px;padding:24px 0;border-top:1px dashed var(--theme-line);border-bottom:1px dashed var(--theme-line);align-items:center}
+.publication-image{display:block;width:100%;padding:6px;border:1px solid var(--line);border-radius:7px;background:#fff;overflow:hidden;cursor:zoom-in}
 .publication-image img{width:100%;height:auto}
 .publication-content{min-width:0}
 .publication-venue{display:inline-flex;align-items:center;gap:10px;margin:0 0 9px;padding:2px 10px;background:var(--theme-surface);color:var(--theme-text);border-radius:4px;font-size:.8125rem;font-weight:600}
@@ -90,8 +90,9 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .research-tag{display:grid;place-items:center;width:60px;height:44px;margin-top:3px;background:var(--theme-surface);border:1px solid var(--theme-line);border-radius:5px;color:var(--theme-text);font-size:.875rem;font-weight:650}
 .research-list h3{color:var(--theme-text)}.research-list p{margin:4px 0 0;font-size:1rem;line-height:1.7}
 .experience-list{list-style:none;margin:0;padding:0}
-.experience-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:20px;align-items:center;padding:20px;border:1px solid var(--theme-line);border-radius:7px;background:var(--theme-surface)}
-.organization-logo{width:56px;height:56px;object-fit:contain;border-radius:4px}
+.experience-item{display:grid;grid-template-columns:156px minmax(0,1fr);gap:24px;align-items:center;padding:20px;border:1px solid var(--theme-line);border-radius:7px;background:var(--theme-surface)}
+.organization-logo-link{display:flex;align-items:center;justify-content:center;width:156px;min-height:76px;padding:10px;background:#fff;border:1px solid var(--theme-line);border-radius:6px}
+.organization-logo{width:134px;height:auto;object-fit:contain}
 .experience-content{min-width:0}.experience-content h3 a{color:var(--ink)}.experience-content h3 a:hover{color:var(--theme-text);text-decoration:underline}
 .experience-content p{margin:4px 0 0;color:var(--theme-text);font-size:1rem}
 .experience-meta{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 16px}
@@ -113,7 +114,7 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .header-inner,.layout{margin-inline:40px}
   .layout{grid-template-columns:240px minmax(0,1fr);gap:44px}
   .profile-avatar{width:216px}.profile-avatar img{width:200px;height:200px}
-  .publication{grid-template-columns:190px minmax(0,1fr);gap:20px}
+  .publication{gap:20px}
 }
 @media(max-width:1000px){
   .header-inner{gap:20px}.brand{font-size:1.15rem}.top-nav a{font-size:.875rem}
@@ -125,7 +126,7 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .profile-research{justify-content:flex-start;margin-top:14px}.profile-motto{margin:14px 0}
   .profile-links{display:flex;flex-wrap:wrap;max-width:none;margin:0;gap:8px}.profile-links a{min-height:40px;padding:4px 12px}
   .profile-updated{grid-column:1/-1;text-align:center;margin-top:20px}
-  .top-nav{gap:16px}.publication{grid-template-columns:220px minmax(0,1fr)}
+  .top-nav{gap:16px}
 }
 @media(max-width:760px){
   html{scroll-padding-top:88px}
@@ -146,7 +147,7 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .profile-avatar{width:184px}.profile-avatar img{width:168px;height:168px}
   .profile-name{font-size:1.5rem}.section{margin-bottom:34px}
   .publication{grid-template-columns:1fr;gap:18px}
-  .publication-image{width:min(100%,380px);aspect-ratio:auto;padding:12px}
+  .publication-image{width:100%;max-width:520px;justify-self:center}
   .publication h3{font-size:1.2rem}.publication-links a{min-height:40px}
   .back-to-top{right:16px;bottom:16px}
 }
@@ -160,7 +161,8 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .research-list li{grid-template-columns:52px minmax(0,1fr);gap:14px}.research-tag{width:52px;font-size:.8125rem}
   .education-item{grid-template-columns:44px minmax(0,1fr);gap:14px;align-items:start}.school-logo{width:44px;height:44px}
   .education-role span{display:block}.site-footer{padding-right:40px}
-  .experience-item{grid-template-columns:44px minmax(0,1fr);gap:14px;padding:16px}.organization-logo{width:44px;height:44px}
+  .experience-item{grid-template-columns:minmax(0,1fr);gap:16px;padding:20px}
+  .experience-meta{display:grid;gap:4px}
 }
 @media(max-width:360px){.header-inner{margin-inline:16px}.layout{padding-inline:16px}.section-heading h2{font-size:1.15rem}}
 @media(min-width:1001px) and (max-height:760px){.sidebar{position:static}}
