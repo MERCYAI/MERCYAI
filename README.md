@@ -2,7 +2,7 @@
 
 **M.S. Student · Applied Statistics · Xi'an Jiaotong University**
 
-[GitHub](https://github.com/MERCYAI) · [Biography](#biography) · [News](#news) · [Publications](#publications) · [Research](#research-interests) · [Internship](#internship) · [Education](#education)
+[GitHub](https://github.com/MERCYAI) · [Biography](#biography) · [News](#news) · [Publications](#publications) · [Internship](#internship) · [Education](#education)
 
 ## Biography
 
@@ -25,11 +25,6 @@ Haoyun Tang\*, **Baqiao Deng\***, Enjin Zhou, Songwen Tian, Keyao Xu, Bowen Jing
 [arXiv](https://arxiv.org/abs/2611.21258) · [alphaXiv](https://www.alphaxiv.org/abs/2611.21258) · [Project](https://thinkwam-project.github.io/) · [Code](https://github.com/HaoyunT/Thinkwam)
 
 A latent world-action model that rethinks predicted futures to refine robot actions.
-
-## Research Interests
-
-- **World-Action-Model.** Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.
-- **World models & JEPA.** Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.
 
 ## Internship
 

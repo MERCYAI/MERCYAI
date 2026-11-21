@@ -87,11 +87,6 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
 .publication-links a+a::before{content:"|";margin:0 8px;color:var(--theme-color);font-weight:700}
 .publication-links a:hover{text-decoration:underline;color:var(--theme-text)}
 
-.research-list{list-style:none;margin:0;padding:0}
-.research-list li{display:grid;grid-template-columns:60px minmax(0,1fr);gap:18px;padding:17px 0;border-bottom:1px dashed var(--theme-line)}
-.research-list li:first-child{padding-top:0}.research-list li:last-child{border-bottom:0;padding-bottom:0}
-.research-tag{display:grid;place-items:center;width:60px;height:44px;margin-top:3px;background:var(--theme-surface);border:1px solid var(--theme-line);border-radius:5px;color:var(--theme-text);font-size:.875rem;font-weight:650}
-.research-list h3{color:var(--theme-text)}.research-list p{margin:4px 0 0;font-size:1rem;line-height:1.7}
 .experience-list{list-style:none;margin:0;padding:0}
 .experience-item{display:grid;grid-template-columns:156px minmax(0,1fr);gap:24px;align-items:center;padding:20px;border:1px solid var(--theme-line);border-radius:7px;background:var(--theme-surface)}
 .organization-logo-link{display:flex;align-items:center;justify-content:center;width:156px;min-height:76px;padding:10px;background:#fff;border:1px solid var(--theme-line);border-radius:6px}
@@ -164,7 +159,6 @@ h3{margin:0;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
   .profile-links{display:grid;max-width:260px;margin:16px auto 0}.profile-updated{margin-top:18px}
   .section-heading{gap:12px}.section-heading h2{font-size:1.25rem}
   .news-list{padding-inline:15px}.news-list li{grid-template-columns:1fr;gap:5px}
-  .research-list li{grid-template-columns:52px minmax(0,1fr);gap:14px}.research-tag{width:52px;font-size:.8125rem}
   .education-item{grid-template-columns:44px minmax(0,1fr);gap:14px;align-items:start}.school-logo{width:44px;height:44px}
   .education-role span{display:block}.site-footer{padding-right:40px}
   .experience-item{grid-template-columns:minmax(0,1fr);gap:16px;padding:20px}
