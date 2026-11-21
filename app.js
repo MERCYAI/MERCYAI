@@ -1,5 +1,15 @@
 (() => {
   document.documentElement.classList.add('js');
+  const avatar = document.querySelector('.profile-avatar img');
+  const useAvatarFallback = () => {
+    if (avatar.dataset.fallback) {
+      const fallback = avatar.dataset.fallback;
+      delete avatar.dataset.fallback;
+      avatar.src = fallback;
+    }
+  };
+  avatar.addEventListener('error', useAvatarFallback);
+  if (avatar.complete && !avatar.naturalWidth) useAvatarFallback();
   const navigation = document.querySelector('.top-nav');
   const links = [...navigation.querySelectorAll('a')];
   const sections = links.map(link => document.querySelector(link.getAttribute('href')));
@@ -7,7 +17,7 @@
   const menuToggle = document.querySelector('.menu-toggle');
   const progress = document.querySelector('.reading-progress');
   const backToTop = document.querySelector('.back-to-top');
-  const mobile = window.matchMedia('(max-width: 640px)');
+  const mobile = window.matchMedia('(max-width: 760px)');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let pending = false;
   const setMenuOpen = open => {

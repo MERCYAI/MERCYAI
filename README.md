@@ -2,7 +2,7 @@
 
 **M.S. Student · Applied Statistics · Xi'an Jiaotong University**
 
-[GitHub](https://github.com/MERCYAI) · [Biography](#biography) · [Research](#research-interests) · [Education](#education)
+[GitHub](https://github.com/MERCYAI) · [Biography](#biography) · [News](#news) · [Publications](#publications) · [Research](#research-interests) · [Internship](#internship) · [Education](#education)
 
 ## Biography
 
@@ -10,10 +10,32 @@ I am a master's student in **Applied Statistics** at [Xi'an Jiaotong University]
 
 My research interests include **WAM**, **VLA**, and **AI Agent**. I explore how robots connect visual observations, language instructions, and action, with particular attention to closed-loop evaluation and robustness.
 
+## News
+
+- **2026.11.18** — Our paper [ThinkWAM](https://arxiv.org/abs/2611.21258) is now available on arXiv, with a [project page](https://thinkwam-project.github.io/) and [code](https://github.com/HaoyunT/Thinkwam).
+
+## Publications
+
+**[ThinkWAM: Rethinking Latent Futures for Action Refinement](https://arxiv.org/abs/2611.21258)**
+
+Haoyun Tang\*, **Baqiao Deng\***, Enjin Zhou, Songwen Tian, Keyao Xu, Bowen Jing, Kun Wang, Ke Ma, Zhandong Mei†, Huibin Li†
+
+\* Equal contribution. † Co-corresponding authors. · arXiv preprint, 2026.
+
+[arXiv](https://arxiv.org/abs/2611.21258) · [alphaXiv](https://www.alphaxiv.org/abs/2611.21258) · [Project](https://thinkwam-project.github.io/) · [Code](https://github.com/HaoyunT/Thinkwam)
+
+A latent world-action model that rethinks predicted futures to refine robot actions.
+
 ## Research Interests
 
 - **World-Action-Model.** Integrating world modeling with action generation to learn robot policies that anticipate the consequences of their actions.
 - **World models & JEPA.** Action-conditioned prediction and future latent representations, exploring how predictive representation learning can support robot policies.
+
+## Internship
+
+**[Fangju Research Institute](https://www.astrogrid.world/about)**
+
+Embodied AI Research Intern
 
 ## Education
 
