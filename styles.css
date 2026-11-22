@@ -4,7 +4,7 @@
 :root {
   --theme-color:#A6DCC6; --theme-text:#285E4B; --theme-hover:#1D493A;
   --theme-surface:#F0F8F4; --theme-line:#D8E9E1;
-  --ink:#263A32; --body:#3F4D46; --muted:#66776E; --line:#E3EBE6;
+  --ink:#000; --body:#000; --muted:#000; --line:#E3EBE6;
   font-synthesis:none; color-scheme:light;
 }
 *{box-sizing:border-box}
