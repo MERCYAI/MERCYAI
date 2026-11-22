@@ -1,0 +1,31 @@
+crimson-text-600.ttf
+Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
+https://scripts.sil.org/OFL
+
+permanent-marker-400.ttf
+Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
+http://www.apache.org/licenses/LICENSE-2.0
+
+source-sans-pro-400.ttf
+© 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+http://scripts.sil.org/OFL
+
+source-sans-pro-600.ttf
+© 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+http://scripts.sil.org/OFL
+
+source-sans-pro-700.ttf
+© 2010 - 2018 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+http://scripts.sil.org/OFL
+
+sigmar-one-400.ttf
+Copyright 2011 The Sigmar One Project Authors (contact@sansoxygen.com)
+SIL Open Font License 1.1; see Sigmar-One-OFL.txt.
+Source: https://github.com/google/fonts/blob/main/ofl/sigmarone/SigmarOne-Regular.ttf
+Unmodified upstream TrueType font; normal style, weight 400.
+
+inter-variable-normal.ttf
+Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+SIL Open Font License 1.1; see Inter-OFL.txt.
+Source: https://github.com/google/fonts/blob/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf
+Unmodified upstream variable TrueType font; normal style, weight axis 100-900, optical-size axis 14-32.
